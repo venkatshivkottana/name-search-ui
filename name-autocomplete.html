@@ -54,7 +54,7 @@
          $(".searchClass").autocomplete({ 
          	source: function (request, response) {
          		$.ajax({ 
-         			url: "http://localhost:8080/names", 
+         			url: "http://localhost:8080/api/names", 
          			dataType: "json",
 				headers: {
             				'Access-Control-Allow-Origin': '*',
